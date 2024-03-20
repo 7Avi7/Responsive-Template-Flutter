@@ -1,0 +1,105 @@
+// Companies
+                          const SizedBox(
+                            height: 100,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                SizedBox(
+                                  height: 100,
+                                  child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceEvenly,
+                                      children: [
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Robi_Axiata_Limited_4b1a28483c.png'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Bongo_BD_241091be29.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Kazi_Farms_Limited_22afbe31a5.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Lumipex_796f9498da.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Nielsen_6cf75b203e.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/KN_Harbour_Consortiu_7a59db9616.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/PETROCHEM_GROUP_bec9a51bfa.jpg'),
+                                        ),
+                                      ]),
+                                ),
+                                const SizedBox(
+                                  height: 50,
+                                ),
+                                SizedBox(
+                                  height: 100,
+                                  child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceEvenly,
+                                      children: [
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/INCEPTA_PHARMACEUTICALS_11938f49d0.png'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/ISPAHANI_0009126416.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/HOSAF_GROUP_bfc88f9462.png'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Icon_Group_e7181b6ec4.png'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/GRAPHICS_TEXTILES_LTD_db744c5074.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/Dynamic_Group_5454154e70.jpg'),
+                                        ),
+                                        Expanded(
+                                          child: Image.network(
+                                              'http://192.168.60.35:1337/uploads/IDEAL_TEXTILE_LTD_eb3c664f20.jpg'),
+                                        ),
+                                      ]),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(
+                            height: 50,
+                          ),
+                           Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Container(
+                          height: 60,
+                          color: Colors.black,
+                          child: const Center(
+                            child: Text(
+                              "Copyright © 2024 Transworld Mercantile Corporation. All Rights Reserved.",
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ),
+                      ),

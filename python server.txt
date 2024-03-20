@@ -1,0 +1,10 @@
+flutter config --enable-web
+
+flutter build web
+
+cd build/web
+
+python -m http.server
+
+
+Local Host: http://127.0.0.1:8000/  and  http://localhost:8000/
